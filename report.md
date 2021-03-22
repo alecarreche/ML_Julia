@@ -72,7 +72,7 @@ The tree model here performs best due to its nature of creating implicit feature
 | Naive Bayes (labeled)  | 0.980    | 42.778s       | 1.755 GiB      |
 | Decision Tree          | 0.999    | 336.553s      | 10.516 GiB     |
 | Support Vector Machine | 0.994    | 166.629s      | 8.771 GiB      |
-| Multilayer Perceptron  | 0.603    | 216.851s      | 1.753 GiB      |
+| Multilayer Perceptron  | 0.997    | 216.851s      | 1.753 GiB      |
 
 Training and testing datasets were separated using SkLearn's `train_test_split` function. 
 This data had many classes with huge class imbalance. To remedy this, we aggregated the classes into "normal" and "attack". 
